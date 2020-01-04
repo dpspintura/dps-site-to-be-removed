@@ -1,0 +1,120 @@
+html {
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.separator {
+  padding-bottom: 0.5px;
+  border-radius: 1px;
+  background: linear-gradient(320deg, #2d76fd 0%, #00ffd5 100%);
+}
+
+#navbar-container {
+  position: fixed;
+  display: block;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  transition: top 0.3s;
+  background: linear-gradient(300deg, #2d76fd 0%, #00ffd5 100%);
+  z-index: 100;
+}
+
+.banner {
+  margin-top:80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title{
+  margin-bottom: 0;
+  margin-top: 20px;
+  background: -webkit-linear-gradient(320deg, #2d76fd 0%, #00ffd5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.banner-text-container, .services-area-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-text-container > img, .services-area-container > img {
+  height: 300px;
+  width: auto;
+}
+
+.banner > img {
+  height: 300px;
+  width: auto;
+}
+
+.banner-text, .service-area-text, .budget-area-text {
+  padding: 20px;
+}
+
+.services-area, .budget-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-area-text {
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  /* background-color: rgb(238, 238, 238); */
+  padding-top: 50px;
+}
+
+.service-area-text > article {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  padding: 20px;
+  margin-bottom: 50px;
+  background: linear-gradient(320deg, #2d76fd 0%, #00ffd5 100%);
+}
+
+.service-area-sections {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin: 70px 0;
+  color: white;
+}
+
+.circle {
+  border: 7px solid white;
+  height: 4em;
+  width:  4em;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.far, .fas {
+  font-size: 2em;
+  color: white;
+}
+
+footer {
+background-color:  #313131; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: grey;
+padding: 15px;
+border-radius: 1.5em 1.5em 0 0;
+}
+
+footer > h4 {
+  
+}
